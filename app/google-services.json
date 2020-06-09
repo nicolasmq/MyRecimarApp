@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496333254617",
+    "firebase_url": "https://my-recimar-app.firebaseio.com",
+    "project_id": "my-recimar-app",
+    "storage_bucket": "my-recimar-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496333254617:android:41a9643a56941579cdb3c8",
+        "android_client_info": {
+          "package_name": "com.nicolasmartinez.myrecimarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496333254617-rslaqjua1qhbqiglorldm2cc2c990h0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nicolasmartinez.myrecimarapp",
+            "certificate_hash": "db32da237f5a8876def7945db07fa332ca4dfc0f"
+          }
+        },
+        {
+          "client_id": "496333254617-rfnfsjl670nj57qsn8slpoj19sd5sn6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWnW4T3Y7XIzUBtfp5KGX-MskhFDXPYhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496333254617-rfnfsjl670nj57qsn8slpoj19sd5sn6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name='My Recimar App'
+include ':app'
