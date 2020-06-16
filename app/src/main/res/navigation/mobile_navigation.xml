@@ -10,34 +10,56 @@
         android:name="com.nicolasmartinez.myrecimarapp.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
-
         <action
-            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-            app:destination="@id/nav_home_second" />
+            android:id="@+id/action_nav_home_to_registerFormFragment"
+            app:destination="@id/nav_reg_form" />
     </fragment>
     <fragment
-        android:id="@+id/nav_home_second"
-        android:name="com.nicolasmartinez.myrecimarapp.ui.home.HomeSecondFragment"
-        android:label="@string/home_second"
-        tools:layout="@layout/fragment_home_second">
+        android:id="@+id/nav_reg_form"
+        android:name="com.nicolasmartinez.myrecimarapp.ui.withdrawalRegister.RegisterFormFragment"
+        android:label="register_form_fragment"
+        tools:layout="@layout/register_form_fragment" />
+    <fragment
+        android:id="@+id/nav_binnacle"
+        android:name="com.nicolasmartinez.myrecimarapp.ui.binnacle.BinnacleFragment"
+        android:label="binnacle_fragment"
+        tools:layout="@layout/binnacle_fragment" >
         <action
-            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
-            app:destination="@id/nav_home" />
-
-        <argument
-            android:name="myArg"
-            app:argType="string" />
+            android:id="@+id/action_nav_binnacle_to_binnacleRegisterFragment"
+            app:destination="@id/binnacleRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_voucher"
+        android:name="com.nicolasmartinez.myrecimarapp.ui.voucher.VoucherFragment"
+        android:label="voucher_fragment"
+        tools:layout="@layout/voucher_fragment" >
+        <action
+            android:id="@+id/action_nav_voucher_to_voucherRegisterFragment"
+            app:destination="@id/voucherRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.nicolasmartinez.myrecimarapp.ui.detail.DetailFragment"
+        android:label="detail_fragment"
+        tools:layout="@layout/detail_fragment" />
+    <fragment
+        android:id="@+id/voucherRegisterFragment"
+        android:name="com.nicolasmartinez.myrecimarapp.ui.registerVoucher.VoucherRegisterFragment"
+        android:label="voucher_register_fragment"
+        tools:layout="@layout/voucher_register_fragment" />
+    <fragment
+        android:id="@+id/binnacleRegisterFragment"
+        android:name="com.nicolasmartinez.myrecimarapp.ui.registerBinnacle.BinnacleRegisterFragment"
+        android:label="binnacle_register_fragment"
+        tools:layout="@layout/binnacle_register_fragment" />
+    <fragment
+        android:id="@+id/nav_resume"
+        android:name="com.nicolasmartinez.myrecimarapp.ui.withdrawalList.WithdrawalFragment"
+        android:label="withdrawal_fragment"
+        tools:layout="@layout/withdrawal_fragment" >
+        <action
+            android:id="@+id/action_nav_resume_to_detailFragment"
+            app:destination="@id/detailFragment" />
     </fragment>
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.nicolasmartinez.myrecimarapp.ui.registerWithdraw.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.nicolasmartinez.myrecimarapp.ui.withdrawalsMade.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
 </navigation>

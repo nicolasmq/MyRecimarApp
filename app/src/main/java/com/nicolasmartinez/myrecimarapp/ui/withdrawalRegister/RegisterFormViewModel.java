@@ -1,4 +1,4 @@
-package com.nicolasmartinez.myrecimarapp.ui.registerWithdraw;
+package com.nicolasmartinez.myrecimarapp.ui.withdrawalRegister;
 
 import androidx.lifecycle.ViewModel;
 
