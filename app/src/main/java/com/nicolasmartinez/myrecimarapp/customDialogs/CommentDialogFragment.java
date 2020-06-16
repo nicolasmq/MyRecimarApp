@@ -130,9 +130,9 @@ public class CommentDialogFragment extends DialogFragment {
 
                     Comment c = new Comment();
                     c.setUid(UUID.randomUUID().toString());
-                    c.setComentario(etComentario.getText().toString());
-                    c.setCliente(etComentarioCli.getText().toString());
-                    c.setEstado("ingresado");
+                    c.setComment(etComentario.getText().toString());
+                    c.setClient(etComentarioCli.getText().toString());
+                    c.setState("ingresado");
                     databaseReference.child("Comentarios").child(c.getUid()).setValue(c);
                     dismiss();
                     db.close();

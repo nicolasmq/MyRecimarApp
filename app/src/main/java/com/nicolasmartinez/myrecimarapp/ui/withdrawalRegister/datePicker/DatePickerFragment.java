@@ -1,4 +1,4 @@
-package com.nicolasmartinez.myrecimarapp.ui.datePicker;
+package com.nicolasmartinez.myrecimarapp.ui.withdrawalRegister.datePicker;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;

@@ -1,4 +1,4 @@
-package com.nicolasmartinez.myrecimarapp.ui.withdrawalsMade.withdrawResume;
+package com.nicolasmartinez.myrecimarapp.ui.withdrawalRegister;
 
 import androidx.lifecycle.ViewModelProviders;
 
@@ -14,24 +14,24 @@ import android.view.ViewGroup;
 
 import com.nicolasmartinez.myrecimarapp.R;
 
-public class WithdrawResumeFragment extends Fragment {
+public class RegisterFormFragment extends Fragment {
 
-    private WithdrawResumeViewModel mViewModel;
+    private RegisterFormViewModel mViewModel;
 
-    public static WithdrawResumeFragment newInstance() {
-        return new WithdrawResumeFragment();
+    public static RegisterFormFragment newInstance() {
+        return new RegisterFormFragment();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.withdraw_resume_fragment, container, false);
+        return inflater.inflate(R.layout.register_form_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(WithdrawResumeViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(RegisterFormViewModel.class);
         // TODO: Use the ViewModel
     }
 
