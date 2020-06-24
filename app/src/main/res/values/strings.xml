@@ -12,6 +12,10 @@
     <string name="menu_resume">Resumen</string>
     <string name="menu_binnacle">Bitácora</string>
     <string name="menu_voucher">Recibos</string>
+    <string name="cliente_name_resume_string">Cliente</string>
+    <string name="fecha_resume_string">Fecha:</string>
+    <string name="cantidad_resume_string">Cantidad:</string>
+    <string name="n_guia_resume_string">N°guía:</string>
 
 
 </resources>
